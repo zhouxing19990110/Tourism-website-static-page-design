@@ -1,0 +1,65 @@
+/* 公共样式 */
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.w12{width: 1200px;margin: auto;}
+body{background: #f3f3f3;}
+
+/* 导航模块 */
+.nav{width: 1200px;margin: auto;line-height: 72px;font-size: 18px;}
+.list li{float: left;width: 80px;height: 72px;margin-right: 24px;color: #3d3c46;text-align: center;line-height: 72px;}
+.list .act{background: #5656ff;color: #f1f1ff;}
+.logo{margin-right: 159px;}
+.nav .line{margin: 0 10px;}
+.logo img{vertical-align: middle;}
+
+/* 搜索模块 */
+.search{height: 60px;background: #666666;border: #dcdcdc 1px solid;box-sizing:border-box; border-left: none; border-right: none;}
+.icon{margin-top: 16px;}
+.icon .item{width: 100px;height: 22px;border: 1px solid #f3f1f1;text-align: center;border-top: none; border-bottom: none;}
+
+/*  特惠票 */
+.ticket_deals{height: 350px;;background: url(../img/img_特惠/ticket_background.jpg) no-repeat center;margin-top: 55px;position: relative;}
+.ticket_deals .title{width: 270px;height: 80px;background: #5696ff;position: absolute;top: 233px;}
+.ticket_deals .detail{width: 202px;height: 350px;}
+.ticket_deals .left{font-size: 45px;color: #ffffff;letter-spacing:3px;margin-left: 21px;margin-top: 10px;}
+.ticket_deals .right{font-size: 17px;color: #ffffff;margin-top: 21px;margin-right: 30px;}
+.ticket_deals .item1{font-size: 34px;color: #ffffff;letter-spacing:3px;margin-left: 47px;margin-top: 27px;}
+.ticket_deals .item2{font-size: 13px;color: #ffffff;letter-spacing:1px;margin-left: 50px;}
+.ticket_deals .item3{margin-top: 25px;margin-left: 56px;}
+.ticket_deals .item4{width: 140px;height: 25px;background: #ffffff;border-radius: 5px;margin-left: 32px;margin-top: 45px;padding-top: 5px;}
+.ticket_deals .item4 p{font-size: 14px;color: #333333;text-align: center;}
+.ticket_deals .item4 span{font-size: 12px;color: #333333;}
+.ticket_deals .item5{margin-left: 84px;margin-top: 15px;}
+.ticket_deals .item6{margin-left: 32px;margin-top: 15px;width: 140px;position: relative;}
+input{width: 130px;height: 30px;border: 0;border-radius: 5px;font-size: 14px;letter-spacing:1px;padding-left: 10px;outline: none;}
+.item6 .search{width: 30px;height: 30px;border: 0;background: #5696ff;border-radius: 0 5px 5px 0;text-align: center;padding-top: 6px;position: absolute;right: 0px;top: 0px;}
+
+/* 内容版块 */
+.content{margin-top: 61px;}
+.content .left{width: 860px;}
+.content .left .txt{width: 512px;height: 207px;}
+.left .txt .sold{font-size: 14px;color: #5696ff;}
+.left .txt .detail{font-size: 22px;color: #333333;margin-top: 14px;}
+.left .txt .date{font-size: 16px;color: #666666;margin-top: 15px;margin-bottom: 8px;}
+.left .txt .price{font-size: 36px;color: #eb4c4d;}
+.reserve{width: 140px;height: 50px;border: 1px #5696ff solid;box-sizing: border-box;padding-top: 10px;}
+.reserve p{font-size: 22px;color: #5696ff;text-align: center;}
+.left .line{width: 804px;height: 1px;background: #e9e9e9;margin-top: 50px;margin-bottom: 50px;}
+
+.hot_sale{width: 279pxs;}
+.hot_sale .title{width: 279px;height: 48px;border: 1px solid #5696ff;box-sizing: border-box;display: flex;justify-content: center;align-items: center;margin-bottom: 35px;}
+.hot_sale .txt{width: 164px;font-size: 13px;margin-right: 7px;}
+.hot_sale .price{font-size: 14px;color: #eb4c4d;margin-top: 20px;}
+.hot_sale .line{width: 277px;height: 1px;background: #e9e9e9;margin-top: 18px;margin-bottom: 21px;}
+
+.change .left{width: 198px;height: 59px;text-align: center;font-size: 18px;padding-top: 18px;border: 1px #999999 solid;box-sizing: border-box;}
+.change .right{width: 198px;height: 59px;text-align: center;font-size: 18px;padding-top: 18px;border: 1px #999999 solid;box-sizing: border-box;}
+.change .number{height: 41px;font-size: 19px;padding-top: 18px;}
+.number p{margin-left: 40px;}
+
+/* 底部 */
+.last{height: 94px;background: #5696ff;margin-top: 65px;padding-top: 36px;}
+.last .txt{width: 660px;margin: auto;font-size: 16px;color: #ffffff;}

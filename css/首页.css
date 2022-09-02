@@ -1,0 +1,147 @@
+/* 公共样式 */
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.w12{width: 1200px;margin: auto;}
+body{background: #f3f3f3;}
+
+/* 导航模块样式 */
+.nav{width: 1200px;margin: auto;line-height: 72px;font-size: 18px;}
+.list li{float: left;width: 80px;height: 72px;margin-right: 24px;color: #3d3c46;text-align: center;line-height: 72px;}
+.list .act{background: #5656ff;color: #f1f1ff;}
+.logo{margin-right: 159px;}
+.nav .line{margin: 0 10px;}
+.logo img{vertical-align: middle;}
+
+/* 轮播图板块样式 */
+.banner{height: 48px;background: url(../img/img_首页/banner.jpg) no-repeat center;padding-top: 552px;}
+.change{width: 53px;margin: auto;}
+.circle{width: 16px;height: 16px;background: #fcfcfd;border-radius: 50%;}
+.annulus{width: 16px;height: 16px;border: #fcfcfd 1px solid;box-sizing: border-box;border-radius: 50%;}
+
+/* 输入框样式 */
+.search{width: 350px;margin: auto;margin-top: 70px;position: relative;}
+input{width: 342px;height: 40px;border: #666666 1px solid;border-radius: 5px;padding-left: 8px;outline: none;}
+.search img{position: absolute;top: 9px;right: 14px;}
+
+/* 旅游地区样式 */
+.tour{width: 328px;margin: auto;margin-top: 60px;}
+.tour .line{width: 78px;height: 6px;background: #666666;margin-top: 22px;}
+.area{font-size: 36px;color: #5696ff;margin-left: 14px;}
+.tour .txt{font-size: 22px;color: #666666;text-align: center;margin-top: 22px;}
+
+/* 六张背景图 */
+.area_list{width: 1200px;margin: auto;margin-top: 54px;}
+.pic_item{width: 119px;height: 373px;float: left;margin-right: 1px;}
+.sichuan{background: url(../img/img_首页/sichuan.jpg) no-repeat center;}
+.dali{background: url(../img/img_首页/dali.jpg) no-repeat center;}
+.denmark{background: url(../img/img_首页/denmark.jpg) no-repeat center;width: 596px;position: relative;}
+.japan{background: url(../img/img_首页/japan.jpg) no-repeat center;}
+.italy{background: url(../img/img_首页/italy.jpg) no-repeat center;}
+.france{background: url(../img/img_首页/france.jpg) no-repeat center;}
+.shadow{height: 302px;background:rgba(51, 51, 51, 0.5);padding-left: 33px;padding-top: 71px;}
+.shadow p{font-size: 28px;color: #fbfcfd;line-height: 30px;}
+.denmark img{position: absolute;top: 146px;left: 258px;}
+
+/* More按钮 */
+.more{width: 160px;height: 54px;border: #5696ff 2px solid;border-radius: 5px;margin: auto;margin-top: 72px;}
+.more p{font-size: 26px;color: #5696ff;text-align: center;margin-top: 10px;}
+
+/* 特惠行程样式 */
+.discount{width: 328px;margin: auto;margin-top: 107px;}
+.discount .line{width: 78px;height: 6px;background: #666666;margin-top: 22px;}
+.journey{font-size: 36px;color: #5696ff;margin-left: 14px;}
+.discount .txt{font-size: 22px;color: #666666;text-align: center;margin-top: 22px;}
+
+/* 再来六张背景图 */
+.area_pic{width: 1200px;margin: auto;margin-top: 54px;}
+.area_pic .up{margin-bottom: 8px;}
+.area_pic .denmark{width: 441px;height: 307px;background: url(../img/img_首页/denmark2.jpg) no-repeat center;margin-right: 8px;}
+.area_pic .vietnam{width: 442px;height: 307px;background: url(../img/img_首页/vietnam.jpg) no-repeat center;}
+.area_pic .thailand{width: 362px;height: 369px;background: url(../img/img_首页/thailand.jpg) no-repeat center;margin-right: 8px;}
+.area_pic .malaysia{width: 521px;height: 369px;background: url(../img/img_首页/malaysia.jpg) no-repeat center;}
+.area_pic .japan{width: 300px;height: 424px;background: url(../img/img_首页/japan2.jpg) no-repeat center;margin-bottom: 8px;padding-top: 48px;}
+.area_pic .india{width: 300px;height: 156px;background: url(../img/img_首页/india.jpg) no-repeat center;padding-top: 48px;}
+.shadow_vie{width: 400px;height: 239px;background:rgba(51, 51, 51, 0.3);border: #fcfcfd 4px solid;box-sizing: border-box;margin-left: 22px;margin-top: 22px;padding-top: 27px;}
+.area_pic .p1{font-size: 22px;font-weight: bold;color: #ffffff;margin-left: 55px;margin-top: 48px;}
+.area_pic .p2{font-size: 22px;font-weight: bold;color: #ffffff;margin-left: 55px;}
+.area_pic .p3{font-size: 22px;font-weight: bold;color: #ffffff;margin-left: 34px;}
+.money{width: 315px;margin: auto;margin-top: 28px;}
+.money .line{width: 90px;height: 4px;background: #ffffff;margin-top: 15px;}
+.number{font-size: 26px;color: #ffffff;margin-left: 22px;}
+
+/* More按钮2 */
+.more2{width: 160px;height: 44px;background: #5696ff;border-radius: 5px;margin: auto;margin-top: 72px;padding-top: 10px;}
+.more2 p{font-size: 26px;color: #fefefe;text-align: center;}
+
+/* 旅游资讯样式 */
+.information{width: 328px;margin: auto;margin-top: 107px;}
+.information .line{width: 78px;height: 6px;background: #666666;margin-top: 22px;}
+.info{font-size: 36px;color: #5696ff;margin-left: 14px;}
+.information .txt{font-size: 20px;color: #666666;text-align: center;margin-top: 26px;}
+
+/* 墨西哥版块 */
+.mexcio{margin-top: 227px;}
+.mexcio_pic{height: 745px;background: url(../img/img_首页/mexcio1.jpg) no-repeat center;position: relative;}
+.mexcio_pic img{border: 41px #f3f3f3 solid;position: absolute;right: 0;top: -173px;}
+.mexcio_title .line{width: 132px;height: 7px;background: #666666;margin-left: auto;margin-bottom: 28px;}
+.mexcio_title p{font-size: 32px;color: #333333;text-align: right;}
+.mexcio_title{margin-left: 118px;margin-top: 50px;}
+.mexcio_detail{width: 550px;font-size: 24px;color: #333333;line-height: 48px;text-indent: 2em;margin-top: 50px;}
+.all_detail{width: 180px;height: 60px;border: #72807c 3px solid;border-radius: 5px;margin-top: 50px;}
+.all_detail p{font-size: 26px;text-align: center;text-indent: 0em;margin-top: 5px;}
+
+/* 新西兰版块 */
+.new_zealand{margin-top: 70px;}
+.new_zealand_pic{height: 781px;background: url(../img/img_首页/new_zealand1.jpg) no-repeat;position: relative;}
+.new_zealand_pic img{border: 47px #f3f3f3 solid;position: absolute;left: 484px;top: 64px;}
+.new_zealand_title .line{width: 132px;height: 7px;background: #666666;margin-left: auto;margin-bottom: 28px;}
+.new_zealand_title p{font-size: 32px;color: #333333;text-align: right;}
+.new_zealand_title{margin-left: 212px;margin-top: 50px;}
+.new_zealand_detail{width: 550px;font-size: 24px;color: #333333;line-height: 56px;margin-top: -146px;}
+
+/* More按钮3 */
+.more3{width: 160px;height: 54px;border: #5696ff 2px solid;border-radius: 5px;margin: auto;margin-top: 66px;}
+.more3 p{font-size: 26px;color: #5696ff;text-align: center;margin-top: 10px;}
+
+/* 游记分享 */
+.share{width: 328px;margin: auto;margin-top: 107px;}
+.share .line{width: 78px;height: 6px;background: #666666;margin-top: 22px;}
+.share_txt{font-size: 36px;color: #5696ff;margin-left: 14px;}
+.share .txt{font-size: 20px;color: #666666;text-align: center;margin-top: 22px;}
+
+/* 精选文章 */
+.nivo{margin-top: 54px;}
+.nivo_left{height: 958px;width: 730px;;background: url(../img/img_首页/dali2.jpg) no-repeat;box-shadow:#666666 0  0 20px 5px;}
+.dali_shadow{height: 893px;width: 464px;background:rgba(51, 51, 51, 0.3);padding-left: 36px;padding-top: 65px;}
+.dali_shadow .txt{width: 412px;}
+.nivo_left .p1{font-size: 24px;color: #5696ff;margin-bottom: 77px;}
+.nivo_left .p2{font-size: 24px;color: #fefefe;margin-bottom: 12px;}
+.nivo_left .p3{font-size: 20px;color: #ffffff;margin-bottom: 25px;}
+.nivo_left .p4{font-size: 18px;color: #ffffff;text-align: right;margin-bottom: 20px;}
+.nivo_left .p5{font-size: 18px;line-height: 48px;color: #ffffff;text-indent: 2em;}
+.all_article{width: 160px;height: 54px;border: #ffffff 2px solid;border-radius: 5px;font-size: 22px;text-align: center;margin-top: 80px;}
+.nivo_right_up{width: 410px;height: 432px;background: #ffffff;margin-bottom: 31px;padding-left: 33px;padding-top: 34px;position: relative;box-shadow:#666666 0  0 20px 5px;}
+.nivo_right_bottom{width: 410px;height: 432px;background: #ffffff;padding-left: 33px;padding-top: 34px;position: relative;box-shadow:#666666 0  0 20px 5px;}
+.nivo_right_up .txt{width: 375px;margin-top: 10px;}
+.nivo_right_bottom .txt{width: 375px;margin-top: 10px;}
+.legend{position: absolute;left: 42px;top: 48px}
+.legend .p1{width: 60px;height: 18px;font-size: 12px;color: #ffffff;;background: #5696ff;text-align: center;margin-right: 10px;}
+.legend .p2{width: 30px;height: 18px;font-size: 12px;color: #ffffff;;background: #5696ff;text-align: center;}
+
+/* 精选照片 */
+.ella{height: 473px;background: #ffffff;padding-top: 27px;position: relative;margin-top: 54px;box-shadow:#666666 0  0 50px 5px;}
+.ella span{font-size: 24px;color: #5696ff;margin-left: 18px;}
+.ella .pic{margin-top: 28px;}
+.ella .p1{font-size: 12px;color: #666666;margin-top: 10px;}
+.ella .p2{font-size: 18px;color: #666666;margin-top: 5px;}
+.ella .item{margin-left: 19px;}
+.arrow{width: 1161px;margin-left: 19px;position: absolute;top: 225px;}
+.arrow .left div{width: 50px;height: 50px;background: #ffffff;text-align: center;}
+.arrow .right div{width: 50px;height: 50px;background: #ffffff;text-align: center;}
+
+/* 底部 */
+.last{height: 94px;background: #5696ff;margin-top: 65px;padding-top: 36px;}
+.last .txt{width: 660px;margin: auto;font-size: 16px;color: #ffffff;}

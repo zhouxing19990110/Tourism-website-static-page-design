@@ -1,0 +1,74 @@
+/* 公共样式 */
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.w12{width: 1200px;margin: auto;}
+body{background: #f3f3f3;}
+
+/* 导航模块 */
+.nav{width: 1200px;margin: auto;line-height: 72px;font-size: 18px;}
+.list li{float: left;width: 80px;height: 72px;margin-right: 24px;color: #3d3c46;text-align: center;line-height: 72px;}
+.list .act{background: #5656ff;color: #f1f1ff;}
+.logo{margin-right: 159px;}
+.nav .line{margin: 0 10px;}
+.logo img{vertical-align: middle;}
+
+/* 搜索模块 */
+.search{height: 60px;background: #666666;border: #dcdcdc 1px solid;box-sizing:border-box; border-left: none; border-right: none;}
+.icon{margin-top: 16px;}
+.icon .item{width: 100px;height: 22px;border: 1px solid #f3f1f1;text-align: center;border-top: none; border-bottom: none;}
+
+/* 背景图版块 */
+.background{margin-top: 46px;}
+.background .pic{width: 778px;;;height: 350px;background: url(../img/img_咨询/background_pic.jpg) no-repeat;position: relative;}
+.background .txt{width: 422px;height: 350px;background: #ffffff;}
+.background .pic p{font-size: 28px;color: #fefefe;font-weight: bolder;}
+.background .toutiao{width: 75px;height: 49px;background: url(../img/img_咨询/头条.png);position: absolute;left: 625px;top: 135px}
+.background .item{width: 370px;margin-left: 22px;}
+.background .item .red_dot{width: 12px;height: 12px;margin-top: 7px;}
+.background .item .p1{width: 346px;font-size: 20px;line-height: 35px;}
+.background .item .line{width: 348px;height: 1px;background: #e8e7e7;margin-left: 20px;margin-top: 25px;margin-bottom: 20px;}
+
+/* 内容版块 */
+.content{margin-top: 86px;}
+.content .row{width: 870px;margin-bottom: 34px;}
+.column_left{width: 420px;}
+.column_right{width: 420px;}
+.canada{width: 420px;height: 237px;background: url(../img/img_咨询/canada.jpg);padding-top: 16px;}
+.new_zealand{width: 420px;height: 237px;background: url(../img/img_咨询/new_zealand.jpg);padding-top: 16px;}
+.australia{width: 420px;height: 237px;background: url(../img/img_咨询/australia.jpg);padding-top: 16px;}
+.tailand{width: 420px;height: 237px;background: url(../img/img_咨询/tailand.jpg);padding-top: 16px;}
+.wailian{width: 420px;height: 237px;background: url(../img/img_咨询/wailian.jpg);padding-top: 16px;}
+.dead_sea{width: 420px;height: 237px;background: url(../img/img_咨询/dead_sea.jpg);padding-top: 16px;}
+.content .left .line{width: 420px;height: 1px;background: #eaeaea;margin-top: 18px;margin-bottom: 14px;}
+.content .left .p1{font-size: 20px;color: #222222;margin-top: 24px;margin-bottom: 18px;}
+.content .left .p2{font-size: 16px;color: #5696ff;}
+.content .left .p3{width: 420px;font-size: 16px;color: #666666;}
+.content .date{width: 58px;height: 55px;background: #5696ff;margin-left: 18px;font-size: 18px;color: #ffffff;line-height: 24px;padding-top: 10px;text-align: center;}
+
+.change .left{width: 198px;height: 59px;text-align: center;font-size: 18px;padding-top: 18px;border: 1px #999999 solid;box-sizing: border-box;}
+.change .right_arrow{width: 198px;height: 59px;text-align: center;font-size: 18px;padding-top: 18px;border: 1px #999999 solid;box-sizing: border-box;}
+.change .number{height: 41px;font-size: 19px;padding-top: 18px;}
+.number p{margin-left: 40px;}
+
+.content .right{width: 270px;}
+.content .right .p1{font-size: 24px;color: #2e2e2e;}
+.content .right .line{width: 56px;height: 3px;background: #5696ff;margin-top: 18px;margin-bottom: 26px;}
+.content .right .txt{width: 181px;}
+.content .right .p2{font-size: 15px;color: #5696ff;margin-bottom: 6px;}
+.content .right .p3{font-size: 14px;color: #222222;}
+.item{margin-bottom: 23px;}
+
+.block .visa{width: 141px;height: 38px;background: #5696ff;font-size: 16px;color: #ffffff;display: flex;justify-content: center;align-items: center;margin-bottom: 6px;}
+.block .germany{width: 122px;height: 38px;border: 1px solid #a1a1a1;box-sizing: border-box;font-size: 16px;color: #a1a1a1;display: flex;justify-content: center;align-items: center;margin-bottom: 6px;}
+.block .japan{width: 122px;height: 38px;border: 1px solid #a1a1a1;box-sizing: border-box;font-size: 16px;color: #a1a1a1;display: flex;justify-content: center;align-items: center;margin-bottom: 6px;}
+.block .ticket{width: 141px;height: 38px;border: 1px solid #a1a1a1;box-sizing: border-box;font-size: 16px;color: #a1a1a1;display: flex;justify-content: center;align-items: center;margin-bottom: 6px;}
+.block .visa2{width: 82px;height: 38px;border: 1px solid #a1a1a1;box-sizing: border-box;font-size: 16px;color: #a1a1a1;display: flex;justify-content: center;align-items: center;margin-right: 8px;}
+.block .policy{width: 91px;height: 38px;border: 1px solid #a1a1a1;box-sizing: border-box;font-size: 16px;color: #a1a1a1;display: flex;justify-content: center;align-items: center;}
+.block .traffic{width: 82px;height: 38px;border: 1px solid #a1a1a1;box-sizing: border-box;font-size: 16px;color: #a1a1a1;display: flex;justify-content: center;align-items: center;}
+
+/* 底部 */
+.last{height: 94px;background: #5696ff;margin-top: 65px;padding-top: 36px;}
+.last .txt{width: 660px;margin: auto;font-size: 16px;color: #ffffff;}
